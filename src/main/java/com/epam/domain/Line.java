@@ -8,7 +8,7 @@ public final class Line implements Printable {
 		this.content = content;
 	}
 
-	public String getContent() {
+	private String getContent() {
 		return content;
 	}
 

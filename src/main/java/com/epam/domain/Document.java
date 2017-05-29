@@ -21,6 +21,7 @@ public final class Document implements Printable {
 	public void print() {
 		for (Paragraph paragraph : getParagraphs()) {
 			paragraph.print();
+			System.out.println();
 		}
 	}
 }
