@@ -1,6 +1,6 @@
 package com.epam.domain;
 
-public final class Line {
+public final class Line implements Printable {
 
 	private final String content;
 
@@ -12,4 +12,8 @@ public final class Line {
 		return content;
 	}
 
+	@Override
+	public void print() {
+		System.out.println(getContent());
+	}
 }

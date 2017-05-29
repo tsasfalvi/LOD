@@ -1,12 +1,12 @@
 package com.epam;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 import com.epam.domain.Document;
 import com.epam.domain.Line;
 import com.epam.domain.Paragraph;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class DocumentCreator {
 
@@ -15,8 +15,8 @@ public class DocumentCreator {
 		paragraphs.add(new Paragraph(Arrays.asList(new Line("A line."), new Line("Another line."))));
 		paragraphs.add(new Paragraph(Arrays.asList(new Line("Second paragraph"))));
 		paragraphs.add(new Paragraph(Arrays.asList(new Line("This is the end :("))));
-		Document document = new Document(paragraphs);
-		return document;
+
+		return new Document(paragraphs);
 	}
 
 }
