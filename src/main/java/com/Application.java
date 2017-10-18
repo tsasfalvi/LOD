@@ -1,6 +1,6 @@
-package com.epam;
+package com;
 
-import com.epam.domain.Document;
+import com.domain.Document;
 
 public class Application {
 

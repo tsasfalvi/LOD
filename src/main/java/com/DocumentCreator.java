@@ -1,8 +1,8 @@
-package com.epam;
+package com;
 
-import com.epam.domain.Document;
-import com.epam.domain.Line;
-import com.epam.domain.Paragraph;
+import com.domain.Document;
+import com.domain.Line;
+import com.domain.Paragraph;
 
 import java.util.ArrayList;
 import java.util.Arrays;

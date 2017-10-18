@@ -1,4 +1,4 @@
-package com.epam.domain;
+package com.domain;
 
 public final class Line implements Printable {
 
